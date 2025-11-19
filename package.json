@@ -1,0 +1,17 @@
+{
+  "name": "grasp-principles",
+  "version": "1.0.0",
+  "description": "Vai",
+  "main": "index.js",
+  "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1",
+       "ocp": "ts-node src/OCP/OpenClosedPrinciple.ts",
+       "srp": "ts-node src/SRP/SingleResponsibilityPrinciple.ts"
+     },
+  "author": "Guichard²",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
