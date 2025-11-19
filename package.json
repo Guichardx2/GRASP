@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
        "test": "echo \"Error: no test specified\" && exit 1",
-       "ocp": "ts-node src/OCP/OpenClosedPrinciple.ts",
-       "srp": "ts-node src/SRP/SingleResponsibilityPrinciple.ts"
+       "creator": "ts-node src/GRASP/Creator.ts",
+       "controller": "ts-node src/GRASP/Controller.ts"
      },
   "author": "Guichard²",
   "license": "ISC",
